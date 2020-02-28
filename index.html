@@ -11,7 +11,7 @@
     <title>Horiseon: Sevices</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -20,10 +20,10 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <div class="header">
-      <!-- This section provides anchors that, when clicked, direct the user to a description about the service. -->
-      <h1>Hori<span class="seo">seo</span>n</h1>
-      <div>
+    <header class="header">
+      <!-- This section provides anchors that, when clicked, direct the user to an article about the service. -->
+      <h1>Hori<span id="seo">seo</span>n</h1>
+      <nav>
         <ul>
           <li>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -37,16 +37,19 @@
             <a href="#social-media-marketing">Social Media Marketing</a>
           </li>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </header>
+
+    <!-- Hero Image -->
     <div class="hero"></div>
-    <!-- This section describes each service offered in a short summary. -->
-    <div class="content">
-      <div class="search-engine-optimization">
+
+    <!-- This section contains article which describes each service offered in a short summary. -->
+    <section class="content">
+      <article class="search-engine-optimization">
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
-          alt="Search Engine Optimization"
+          alt="Visibility with Search Engine Optimization"
         />
         <h2>Search Engine Optimization</h2>
         <p>
@@ -55,15 +58,15 @@
           home. Search Engine Optimization (SEO) allows you to increase your
           visibility and find the right customers for your business.
         </p>
-      </div>
-      <div
+      </article>
+      <article
         id="online-reputation-management"
         class="online-reputation-management"
       >
         <img
           src="./assets/images/online-reputation-management.jpg"
           class="float-right"
-          alt="Online Reputation Management"
+          alt="Managing Online Reputation"
         />
         <h2>Online Reputation Management</h2>
         <p>
@@ -73,12 +76,12 @@
           control over what potential customers see when they search for your
           business.
         </p>
-      </div>
-      <div id="social-media-marketing" class="social-media-marketing">
+      </article>
+      <article id="social-media-marketing" class="social-media-marketing">
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
-          alt="Social Media Marketing"
+          alt="Marketing through Social Media"
         />
         <h2>Social Media Marketing</h2>
         <p>
@@ -87,8 +90,8 @@
           to your brand, using analytics to find the right markets and increase
           your lead generation.
         </p>
-      </div>
-    </div>
+      </article>
+    </section>
 
     <!-- This section outlines the benfits that could be achieved using these services. -->
     <div class="benefits">
