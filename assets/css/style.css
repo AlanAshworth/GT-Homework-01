@@ -96,7 +96,6 @@ aside {
 figure {
   margin-bottom: 32px;
   color: #ffffff;
-
 }
 
 figure img {
@@ -106,7 +105,7 @@ figure img {
 }
 
 figcaption {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 footer {
@@ -138,8 +137,4 @@ footer {
 
 #seo {
   color: #d9dcd6;
-}
-
-#wrapper {
-    overflow: auto;
 }
